@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 #define tab "\t"
@@ -17,15 +17,15 @@ void main()
 	{
 
 
-		cout << "Ââåäèòå ìèíèìàëüíîå âîçìîæíîå ñëó÷àéíîå ÷èñëî: "; cin >> minRand;
-		cout << "Ââåäèòå ìàêñèìàëüíîå âîçìîæíîå ñëó÷àéíîå ÷èñëî: "; cin >> maxRand;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾Ðµ ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> minRand;
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾Ðµ ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> maxRand;
 		if (maxRand <= minRand)
-			cout << "Error: Íóëåâîé äèàïàçîí " << endl;
+			cout << "Error: ÐÑƒÐ»ÐµÐ²Ð¾Ð¹ Ð´Ð¸Ð°Ð¿Ð°Ð·Ð¾Ð½ " << endl;
 		system("PAUSE");
 		system("CLS");
 
 	} while (maxRand <= minRand);*/
-	cout << "Ââåäèòå ìèíèìàëüíîå è ìàêñèìàëüíî âîçìîæíîå ñëó÷àéíîå ÷èñëî: "; cin >> minRand >> maxRand;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¸ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾Ðµ ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> minRand >> maxRand;
 	if (maxRand < minRand)
 
 		{

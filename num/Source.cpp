@@ -7,12 +7,17 @@ void main()
 	setlocale(LC_ALL, "");
 	int n;
 	int bin = 2;
-	cout << "Введите десятичное число: "; cin >> n;
+	int b;
+	int percent;
 	
-	for (int i = 0; i < n; i++)
+	cout << "Введите десятичное число: "; cin >> n;
+	int buffer = n;
+	
+
+	for (int i = n; i !=0; i--)
 	{
-		cout << n / 2 << endl;
+		b = buffer % 2;
+		percent = buffer / bin;
+		cout << b << " " << percent;
 	}
-
-
 }
